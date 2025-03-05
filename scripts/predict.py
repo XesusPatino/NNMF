@@ -5,6 +5,8 @@ from __future__ import absolute_import, print_function
 import argparse, json
 # Third party modules
 import tensorflow as tf
+tf.compat.v1.disable_v2_behavior()
+
 # Package modules
 from nnmf.models import NNMF, SVINNMF
 
